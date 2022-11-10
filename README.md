@@ -50,3 +50,13 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 * ¿Por qué la memoization falla o no funciona de forma correcta?
 * ¿Cómo funciona el sistema de facturación de las Function App?
 * Informe
+
+
+![image](https://user-images.githubusercontent.com/90010904/201109975-a9f7d2e0-633b-4fd6-adfb-2d40b6ad106c.png)
+
+![image](https://user-images.githubusercontent.com/90010904/201110016-89969667-c7a4-405f-b1c3-94fc88870042.png)
+
+![image](https://user-images.githubusercontent.com/90010904/201110177-fea1663b-544b-48ca-9383-0b6fcbc33459.png)
+
+
+
