@@ -60,5 +60,8 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 
 ![image](https://user-images.githubusercontent.com/90010904/201117873-06556203-0a72-4f94-83ac-1922d2ca8fc1.png)
 
+![image](https://user-images.githubusercontent.com/90010884/201768628-89648f06-2ace-49f9-b89c-6ae0aac02fea.png)
+
+
 
 
