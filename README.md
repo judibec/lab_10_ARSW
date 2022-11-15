@@ -47,6 +47,9 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 Servicio de la nube disponible a peticion que proporciona toda la infraestructura y los recursos, que se actualizan continuamente necesarios para ejecutar las aplicaciones. Function proporciona proceso sin servidor para Azure 
 
 * ¿Qué es serverless?
+
+Es una solución que permite crear y ejecutar aplicaciones con rapidez y menor costo total de propiedad, ya que no es necesario aprovisionar y administrar infraestructura. Evidentemente, por detrás hay servidores para ejecutar las aplicaciones, pero el proveedor de nube se encarga de la administración, por lo tanto, de nuestro lado dejamos de preocuparnos por administrar servidores, sistemas operativos, software y demás recursos, y únicamente nos centramos en el código de la aplicación.
+
 * ¿Qué es el runtime y que implica seleccionarlo al momento de crear el Function App?
 
 Proporciona varias funcionalidades de integracion de datos en distintos entornos de red. Este ofrece 3 opciones:
@@ -55,6 +58,9 @@ Proporciona varias funcionalidades de integracion de datos en distintos entornos
   3. Azure-SQL Server Integration Services (SSIS) Integration Runtime
 
 * ¿Por qué es necesario crear un Storage Account de la mano de un Function App?
+
+Este requisito existe porque Functions depende de Azure Storage para operaciones como la administración de desencadenadores y el registro de ejecuciones de funciones. Algunas cuentas de almacenamiento no admiten el uso de colas y tablas; Estas cuentas incluyen cuentas de almacenamiento solo de blobs y Azure Premium Storage.
+
 * ¿Cuáles son los tipos de planes para un Function App?, ¿En qué se diferencias?, mencione ventajas y desventajas de cada uno de ellos.
 
 Hay 3 planes principales:
