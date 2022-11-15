@@ -43,12 +43,37 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 **Preguntas**
 
 * ¿Qué es un Azure Function?
+
+Servicio de la nube disponible a peticion que proporciona toda la infraestructura y los recursos, que se actualizan continuamente necesarios para ejecutar las aplicaciones. Function proporciona proceso sin servidor para Azure 
+
 * ¿Qué es serverless?
 * ¿Qué es el runtime y que implica seleccionarlo al momento de crear el Function App?
+
+Proporciona varias funcionalidades de integracion de datos en distintos entornos de red. Este ofrece 3 opciones:
+  1. Tiempo de ejecucion de integracion de Azure
+  2. Integracion Runtime autohospedado
+  3. Azure-SQL Server Integration Services (SSIS) Integration Runtime
+
 * ¿Por qué es necesario crear un Storage Account de la mano de un Function App?
 * ¿Cuáles son los tipos de planes para un Function App?, ¿En qué se diferencias?, mencione ventajas y desventajas de cada uno de ellos.
+
+Hay 3 planes principales:
+  1. Plan de Consumo: Escale de forma automática y pague los recursos de proceso solo cuando se ejecuten las funciones. En el plan de consumo, las instancias del host de Functions se agregan y quitan de forma dinámica según el número de eventos de entrada.
+  2. Plan Premium: Escala automáticamente en función de la demanda mediante trabajos preparados previamente que ejecutan aplicaciones sin ningún retraso después de estar inactivas, ejecuta en instancias más eficaces y se conecta a redes virtuales.
+  3. Plan Dedicado (App Service): Ejecute las funciones en un plan de App Service a los Precios de App Service normales.Mejor para escenarios de ejecución prolongada en los que no se puede usar Durable Functions
+
 * ¿Por qué la memoization falla o no funciona de forma correcta?
 * ¿Cómo funciona el sistema de facturación de las Function App?
+
+El proveedor de recursos de Azure App Service consta de varios tipos de roles que se pueden dividir entre los niveles de trabajo y de infraestructura. Los roles de infraestructura no se facturan ya que son necesarios para el funcionamiento básico del servicio. Los roles de infraestructura se pueden escalar horizontalmente según sea necesario para satisfacer las demandas de los inquilinos del operador de nube. Los roles de infraestructura son los siguientes:
+
+  1. Controladores
+  2. Roles de administración
+  3. Publicadores
+  4. Front-ends
+  
+Los niveles de trabajo constan de dos tipos principales: compartidos y dedicados. El uso del trabajo se factura a la suscripción del proveedor predeterminado del operador de nube según los siguientes criterios.
+
 * Informe
 
 
